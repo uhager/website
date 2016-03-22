@@ -113,7 +113,7 @@ TigSortGUI can also read back trees from root files it has previously generated.
 <li>load data files: Menu 'Data' &rarr; 'Select root files'</li>
 <li>choose root data files, this is multiple selection, the data files must have the same tree structure as the file you selected for configuration</li>
 </ul>
-Note: Reading scalers back does not currently work.
+					  <p>Note: Reading scalers back does not currently work.</p>
 
 <h4>2.3 Calibration</h4>
 <p>
@@ -242,7 +242,7 @@ The output file will be asmXYZ.root.
 
 <hr>
 <div class="disclaimer"> Disclaimer <br>
-This program does not come with any warranties. This is an ongoing project, so functions and file formats may change at any time. If you find bugs, you may keep them. The program was developed and tested under Linux. It should also work under weirdo fringe operating systems like Windows or Mac OS, as long as you can install ROOT and ROOTANA, but this has not been checked, nor do I intend to check it. 
+  This program does not come with any warranties. This is an ongoing project, so functions and file formats may change at any time. If you find bugs, you may keep them (though please let me know where you found them). The program was developed and tested under Linux. It should also work under weirdo fringe operating systems like Windows or Mac OS, as long as you can install ROOT and ROOTANA, but this has not been checked, nor do I intend to check it. 
 </div>
 
 <!--

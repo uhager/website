@@ -14,6 +14,8 @@
    <li><a class="nav" href="publications.php#2012">2012</a> </li>
    <li><a class="nav" href="publications.php#2013">2013</a> </li>
    <li><a class="nav" href="publications.php#2014">2014</a> </li>
+   <li><a class="nav" href="publications.php#2015">2015</a> </li>
+   <li><a class="nav" href="publications.php#2016">2016</a> </li>
    </ul>
    </div>
 
@@ -21,7 +23,21 @@
 
    <h2><a name="up">Publications</a></h2>
 
-  <h3><a class="intLink" name="2014">2014</a></h3>
+<h3><a class="intLink" name="2016">2016</a></h3>
+  <p>
+  <strong>A recoil separator for nuclear astrophysics SECAR</strong><br>
+    G.P.A. Berg, D.W. Bardayan, J.C. Blackmon, K.A. Chipps, M. Couder, U. Greife, U. Hager, F. Montes, K.E. Rehm, H. Schatz, M.S. Smith, M. Wiescher, C. Wrede, A. Zeller<br>
+    NIM B, in press, http://dx.doi.org/10.1016/j.nimb.2016.02.009<br>
+</p>
+
+<h3><a class="intLink" name="2015">2015</a></h3>
+  <p>
+  <strong>Structure of <sup>26</sup>Na via a novel technique using (d, p&gamma;) with a radioactive <sup>25</sup>Na beam.</strong><br>
+  W.N. Catford, I.C. Celik, G.L. Wilson, A. Matta, N.A. Orr, C.Aa. Diget, P. Adsley, H. Al-Falou, R. Ashley, R.A.E. Austin, G.C. Ball, J.C. Blackmon, A.J. Boston, H.C. Boston, S.M. Brown, D.S. Cross, M. Djongolov, T.E. Drake, U. Hager, S.P. Fox, B.R. Fulton, N. Galinski, A.B. Garnsworthy, G. Hackman, D. Jamieson, R. Kanungo, K. Leach, J.-P. Martin, J.N. Orce, C.J. Pearson, M. Porter-Peden, F. Sarazin, S. Sjue, C. Sumithrarachchi, C.E. Svensson, S. Triambak, C. Unsworth, R. Wadsworth, S.J. Williams<br>
+  Acta Physica Polonica B. (2015) 46(3):527-536<br>
+</p>
+
+<h3><a class="intLink" name="2014">2014</a></h3>
 
 <p>
 <strong>Recoil separators for radiative capture using radioactive ion beams - Recent advances and detection techniques</strong><br>

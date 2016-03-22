@@ -15,12 +15,7 @@
 </tr>
 </table>
     <hr>
-<!--    <address><a href="mailto:ulrike.hager@phys.jyu.fi">Ulrike Hager</a></address> -->
-<!-- Created: Thu Apr 27 12:22:42 EEST 2006 -->
-<!-- hhmts start -->
-<p>Last updated: Mar 25, 2015</p> 
-<!-- <div id="icon"><a class="righted" href="passCheck.php"><img src="drawer_white1.png" width=25 alt="private" style="padding:10px 10px 10px 0px"></a></div> -->
-<!-- hhmts end -->
+<p>Last updated: Mar 22, 2016</p> 
 </div>
   </body>
 </html>
