@@ -24,6 +24,7 @@ $eff_1 = $_POST["eff_1"];
 $eff_2 = $_POST["eff_2"];
 $eff_3 = $_POST["eff_3"];
 if (!isset($_POST["B"])) $B = 1;
+if (!isset($_POST["Q"])) $Q = 1;
 if (!isset($_POST["MdA"])) $MdA = 1;
 if (!isset($_POST["eff_1"])) $eff_1 = 98;
 if (!isset($_POST["eff_2"])) $eff_2 = 78;
@@ -34,28 +35,84 @@ if (!isset($_POST["N"])) $N = $N_2;
 if (!isset($_POST["p"])) $p = $p_2;
 if (isset($_POST["E_3"])) $E_2 = $E_3;
 if (isset($_POST["E_3"])) $E = $E_3;
+$nucleus = $_POST['nucleus'];
+if (!isset($_POST['nucleus'])) $nucleus = '15o';
+$MD1const = 0.0004815;
 ?>
 
-<?php include("xhtmlNav.php") ?>
-<?php include("projectSideNav.php") ?>
+<?php 
+include("xhtmlNav.php");
+include("projectSideNav.php") ;
 
+function csv_to_array($file) {
+  $data = array();
+  $headers = array();
+  if ( !file_exists($file) ) {
+    echo $file . ' not found.';
+    return FALSE;
+  }
+  if ( !is_readable($file) ) {
+    echo $file . ' not readable.';
+    return FALSE;
+  }
+  $file_handle = fopen($file, 'r');
+  while (!feof($file_handle)) {
+    $line = fgetcsv($file_handle, 10240, ',');
+      if (empty($headers))
+	$headers = $line;
+      else if (is_array($line)) {
+	array_splice($line, count($headers));
+	foreach ($headers as $column => $col_header) {
+	  $current_row[$col_header] = $line[$column];
+	}
+	$data[] = $current_row;
+      }
+    }
+  fclose($file_handle);
+  return $data;
+}
+
+
+function value_from_array($array, $search_key, $search_value, $return_key){
+  if ( !is_array($array) ) {
+    echo 'not an array';
+    return FALSE;
+  }
+  foreach ( $array as $row ) {
+    if ( $row[$search_key] == $search_value ) {
+      return $row[$return_key];
+    }
+  }
+  echo $search_key . '==' . $search_value . ' not found in array.<br/>';
+  return FALSE;
+}
+
+$nubtab = csv_to_array('nubtab.csv'); 
+?>
 
 <div id="work_main" class="centered">
 
 <p>
-<a class="text" href="DragonTools.php" >MD1 calibration </a> - <a class="text" href="DragonTools.php#yield" >Yield calculation</a>
+<a class="text" href="dragon-tools.php#md1" >MD1 calibration </a> - <a class="text" href="dragon-tools.php#yield" >Yield calculation</a>
 </p>
  <hr/>
 <h3><a class="intLink" name="md1">MD1 energy calibration, tune ratios, ED1 calibration</a></h3>
 
 
-<form action="DragonTools.php#md1" method="post">
+<form action="dragon-tools.php#md1" method="post">
 <label for="B">MD1 field [G]:</label>
 	 <input type="text" name="B" id="B" size="6" value="<?php echo $B; ?>" />
 <label for="MdA">MD1 setpoint [A]:</label>
  <input type="text" name="MdA" id="MdA" size="6" value="<?php echo $MdA; ?>" /> <br/>
-<label for="A">Mass number:</label>
- <input type="text" name="A" id="A" size="3" value="<?php echo $A; ?>"/>
+<label for="nucleus">Nucleus:</label>
+<input type="text" list="nucleus" name="nucleus" size="5" value="<?php echo $nucleus; ?>" />
+<datalist id="nucleus">
+<?php
+foreach ( $nubtab as $nucleon ) {
+  echo '<option>' . $nucleon['AX'] . '</option>';
+}
+?>
+</datalist>
 <label for="Q"></label>
 Charge state: <input type="text" name="Q" id="Q" size="2" value="<?php echo $Q; ?>"/><br/>
 <label for="ED1">ED1 setpoint voltage [kV]:</label>
@@ -63,20 +120,25 @@ Charge state: <input type="text" name="Q" id="Q" size="2" value="<?php echo $Q; 
 <input class="submit" type="submit" value="calculate" />
 </form>
 
-
 <?php
-if ($A!=0 && $B!=0 && $Q!=0)
-{
-$E = 0.0004823 * ($Q*$B/$A)* ($Q*$B/$A);
-$E = round($E*100)/100;
-$ED_calc =  round(2468 * ($B/10000*$B/10000)*$Q/$A * 100)/100;
-$ED2_calc_1 = round(0.8 * $ED_calc*100)/100;
-if (!isset($_POST["E_2"])) $E_2 = $E;
-if (!isset($_POST["E_3"])) $E_3 = $E;
-echo "E = " . $E . " keV/u = ". (round($E*$A)/1000) . " MeV <br/> ED1 = " . $ED_calc. " kV, ED2 = " . $ED2_calc_1. " kV <br/>";
+if ($nucleus!=0 && $B!=0 && $Q!=0) {
+  $ME = value_from_array($nubtab,'AX',$nucleus,'ME');
+  //  echo 'ME = ' . $ME . '<br/>';
+  $A = value_from_array($nubtab,'AX',$nucleus,'A');
+  $A = ($A * 931494 + $ME) / 931494;
+  echo 'ME = ' . $ME . ' keV, A = ' . round($A,3) . '<br/>';
+
+  $E = $MD1const * ($Q*$B/$A)* ($Q*$B/$A);
+  $E = round($E*100)/100;
+  $ED_calc =  round(2468 * ($B/10000*$B/10000)*$Q/$A * 100)/100;
+  $ED2_calc_1 = round(0.8 * $ED_calc*100)/100;
+  if (!isset($_POST["E_2"])) $E_2 = $E;
+  if (!isset($_POST["E_3"])) $E_3 = $E;
+  echo "E = " . $MD1const . " * (" . $Q . " * " . $B . " / " . round($A,2) . ")<sup>2</sup> keV/u<br/>"; 
+  echo "<b>E = " . $E . " keV/u = ". (round($E*$A)/1000) . " MeV </b><br/> ED1 = " . $ED_calc. " kV, ED2 = " . $ED2_calc_1. " kV <br/>";
 }
-else
-echo "Please insert MD1, A and q to calculate the beam energy. <br/>"	
+ else
+   echo "Insert MD1, A and q to calculate the beam energy. <br/>"	;
 ?>
 	<br/>
 	
@@ -93,7 +155,7 @@ if ($B!=0 && $ED!=0)
 
 }
 else
-echo "Please insert B and ED1 to calculate the mass-to-charge ratio (and q for mass). <br/>"	
+echo "Insert B and ED1 to calculate the mass-to-charge ratio (and q for mass). <br/>"	
 ?>
 
 
