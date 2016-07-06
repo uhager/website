@@ -101,11 +101,11 @@ $nubtab = csv_to_array('nubtab.csv');
 
 <form action="dragon-tools.php#md1" method="post">
 <label for="B">MD1 field [G]:</label>
-	 <input type="text" name="B" id="B" size="6" value="<?php echo $B; ?>" />
+	 <input type="text" name="B" id="B" size="7" value="<?php echo $B; ?>" />
 <label for="MdA">MD1 setpoint [A]:</label>
  <input type="text" name="MdA" id="MdA" size="6" value="<?php echo $MdA; ?>" /> <br/>
 <label for="nucleus">Nucleus:</label>
-<input type="text" list="nucleus" name="nucleus" size="5" value="<?php echo $nucleus; ?>" />
+<input type="text" list="nucleus" name="nucleus" size="7" value="<?php echo $nucleus; ?>" />
 <datalist id="nucleus">
 <?php
 foreach ( $nubtab as $nucleon ) {
@@ -114,9 +114,9 @@ foreach ( $nubtab as $nucleon ) {
 ?>
 </datalist>
 <label for="Q"></label>
-Charge state: <input type="text" name="Q" id="Q" size="2" value="<?php echo $Q; ?>"/><br/>
+Charge state: <input type="text" name="Q" id="Q" size="3" value="<?php echo $Q; ?>"/><br/>
 <label for="ED1">ED1 setpoint voltage [kV]:</label>
- <input type="text" name="ED1" id="ED1" size="5" value="<?php echo $ED; ?>"/><br/>
+ <input type="text" name="ED1" id="ED1" size="6" value="<?php echo $ED; ?>"/><br/>
 <input class="submit" type="submit" value="calculate" />
 </form>
 
