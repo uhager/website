@@ -21,23 +21,40 @@
 
    <div id="work_main">
 
-   <h2><a name="up">Publications</a></h2>
+   <h2><a id="up">Publications</a></h2>
 
-<h3><a class="intLink" name="2016">2016</a></h3>
+<h3><a class="intLink" id="2016">2016</a></h3>
+
+<p>
+<strong>Independent isotopic yields in 25 MeV and 50 MeV proton-induced fission of <sup>nat</sup>U</strong><br>
+H. Penttilä, D. Gorelov , V.-V. Elomaa, T. Eronen, U. Hager, J. Hakala, A. Jokinen, A. Kankainen, P. Karvonen, I. D. Moore, J. Parkkonen, K. Peräjärvi, I. Pohjalainen, S. Rahaman, S. Rinta-Antila, J. Rissanen, V.A. Rubchenya, A. Saastamoinen, V. Simutkin, T. Sonoda, C. Weber, A. Voss, J. Äystö<br>
+  Eur. Phys. J. A (2016) 52:104<br>
+</p>
+
+<p>
+  <strong>Direct Measurement of the Astrophysical <sup>38</sup>K(p,&gamma;)<sup>39</sup>Ca Reaction and Its Influence on the Production of Nuclides toward the End Point of Nova Nucleosynthesis</strong><br>
+  G. Lotay, G. Christian, C. Ruiz, C. Akers, D. S. Burke, W. N. Catford, A. A. Chen, D. Connolly, B. Davids, J. Fallis, U. Hager, D. A. Hutcheon, A. Mahl, A. Rojas, X. Sun<br>
+  Phys. Rev. Lett. 116, 132701 (2016)<br>
+</p>
+
   <p>
   <strong>A recoil separator for nuclear astrophysics SECAR</strong><br>
     G.P.A. Berg, D.W. Bardayan, J.C. Blackmon, K.A. Chipps, M. Couder, U. Greife, U. Hager, F. Montes, K.E. Rehm, H. Schatz, M.S. Smith, M. Wiescher, C. Wrede, A. Zeller<br>
     NIM B, in press, http://dx.doi.org/10.1016/j.nimb.2016.02.009<br>
 </p>
 
-<h3><a class="intLink" name="2015">2015</a></h3>
+<p class="righted"><a class="text" href="publications.php">up</a></p>
+<br>
+<h3><a class="intLink" id="2015">2015</a></h3>
   <p>
   <strong>Structure of <sup>26</sup>Na via a novel technique using (d, p&gamma;) with a radioactive <sup>25</sup>Na beam.</strong><br>
   W.N. Catford, I.C. Celik, G.L. Wilson, A. Matta, N.A. Orr, C.Aa. Diget, P. Adsley, H. Al-Falou, R. Ashley, R.A.E. Austin, G.C. Ball, J.C. Blackmon, A.J. Boston, H.C. Boston, S.M. Brown, D.S. Cross, M. Djongolov, T.E. Drake, U. Hager, S.P. Fox, B.R. Fulton, N. Galinski, A.B. Garnsworthy, G. Hackman, D. Jamieson, R. Kanungo, K. Leach, J.-P. Martin, J.N. Orce, C.J. Pearson, M. Porter-Peden, F. Sarazin, S. Sjue, C. Sumithrarachchi, C.E. Svensson, S. Triambak, C. Unsworth, R. Wadsworth, S.J. Williams<br>
   Acta Physica Polonica B. (2015) 46(3):527-536<br>
 </p>
 
-<h3><a class="intLink" name="2014">2014</a></h3>
+<p class="righted"><a class="text" href="publications.php">up</a></p>
+<br>
+<h3><a class="intLink" id="2014">2014</a></h3>
 
 <p>
 <strong>Recoil separators for radiative capture using radioactive ion beams - Recent advances and detection techniques</strong><br>
@@ -69,7 +86,9 @@ D. Smalley, F. Sarazin, F. M. Nunes, B. A. Brown, P. Adsley, H. Al-Falou, C. And
   Phys. Rev. C 89, 014305 (2014)<br>
 </p>
 
-  <h3><a class="intLink" name="2013">2013</a></h3>
+<p class="righted"><a class="text" href="publications.php">up</a></p>
+<br>
+  <h3><a class="intLink" id="2013">2013</a></h3>
    <p>
 <strong>Constraining nova observables: Direct measurements of resonance strengths in <sup>33</sup>S(p,&gamma;)<sup>34</sup>Cl</strong><br>
    J. Fallis, A. Parikh, P.F. Bertone, S. Bishop, L. Buchmann, A.A. Chen, G. Christian, J.A. Clark, J.M. D'Auria, B. Davids, C.M. Deibel, B.R. Fulton, U. Greife, B. Guo, U. Hager, C. Herlitzius, D.A. Hutcheon, J. José, A.M. Laird, E.T. Li, Z.H. Li, G. Lian, W.P. Liu, L. Martin, K. Nelson, D. Ottewell, P.D. Parker, S. Reeve, A. Rojas, C. Ruiz, K. Setoodehnia, S. Sjue, C. Vockenhuber, Y.B. Wang, C. Wrede<br>
@@ -106,9 +125,9 @@ S.K.L. Sjue, B.S. Nara Singh, P. Adsley, L. Buchmann, M. Carmona-Gallardo, B. Da
 Nucl. Instr. and Meth. A 700 (2013) 179-181<br>
 </p>
 
-
-
-<h3><a class="intLink" name="2012">2012</a></h3>
+<p class="righted"><a class="text" href="publications.php">up</a></p>
+<br>
+<h3><a class="intLink" id="2012">2012</a></h3>
 
 <p>
 <strong>Direct measurement of the <sup>16</sup>O(&alpha;,&gamma;)<sup>20</sup>Ne reaction at E<sub>c.m.</sub> = 2.26 MeV and 1.69 MeV</strong><br>
@@ -136,7 +155,9 @@ U. Hager, L. Buchmann, B. Davids, J. Fallis, B. R. Fulton, N. Galinski, U. Greif
 Phys. Rev. C 85, 035803 (2012)
 </p>
 
-<h3><a class="intLink" name="2011">2011</a></h3>
+<p class="righted"><a class="text" href="publications.php">up</a></p>
+<br>
+<h3><a class="intLink" id="2011">2011</a></h3>
 
 <p>
 <strong>Direct total cross section measurement of the <sup>16</sup>O(&alpha;,&gamma;)<sup>20</sup>Ne reaction at E<sub>c.m.</sub> = 2.26 MeV</strong><br>
@@ -156,7 +177,9 @@ C.Aa. Diget,  S.P. Fox, A. Smith, S. Williams, M. Porter-Peden, L. Achouri, P. A
 JINST 6 P02005 (2011)<br>
 </p>
 
-<h3><a class="intLink" name="2010">2010</a></h3>
+<p class="righted"><a class="text" href="publications.php">up</a></p>
+<br>
+<h3><a class="intLink" id="2010">2010</a></h3>
 
 <p>
 <strong>Reactor Decay Heat in <sup>239</sup>Pu: Solving the &gamma; Discrepancy in the 4 - 3000-s Cooling Period</strong><br>
@@ -178,7 +201,7 @@ Phys. Rev. C 81, 045808 (2010)<br>
 
 <p class="righted"><a class="text" href="publications.php">up</a></p>
 <br>
-<h3><a class="intLink" name="2009">2009</a></h3>
+<h3><a class="intLink" id="2009">2009</a></h3>
 
 <p>
 <strong>Half-life, branching-ratio, and <i>Q</i>-value measurement for the superallowed 0<sup>+</sup> -&gt; 0<sup>+</sup> &beta;<sup>+</sup> emitter <sup>42</sup>Ti</strong><br>
@@ -205,7 +228,7 @@ submitted to Eur. Phys. J. A<br>
 <p class="righted"><a class="text" href="publications.php">up</a></p>
     
 <br>
-<h3><a class="intLink" name="2008">2008</a></h3>
+<h3><a class="intLink" id="2008">2008</a></h3>
 
 <p>
 <strong>Low Energy Measurement of the <sup>18</sup>F(p,&alpha;)<sup>15</sup>O Cross Section at TRIUMF</strong><br>
@@ -300,7 +323,7 @@ Nucl. Instr. and Meth. B 266 (2008) 4628-4631 (EMIS07 proceedings)<br>
 <p class="righted"><a class="text" href="publications.php">up</a></p>
     
 <br>
-<h3><a class="intLink" name="2007">2007</a></h3>
+<h3><a class="intLink" id="2007">2007</a></h3>
 
 <p>
 <strong> Masses of neutron-rich Ni and Cu isotopes and the shell closure at Z=28, N=40</strong><br>
@@ -356,7 +379,7 @@ Eur. Phys. J. A, 31 (1) (2007) 1-7<br>
  <p class="righted"><a class="text" href="publications.php">up</a></p>
     
 <br>
-<h3><a class="intLink" name="2006">2006</a></h3>
+<h3><a class="intLink" id="2006">2006</a></h3>
 
 <p>
 <strong>Experimental studies at JYFLTRAP</strong><br>
@@ -417,7 +440,7 @@ in "Proceedings of the International Symposium on Nuclear Astrophysics - Nuclei 
 </p>
 <p class="righted"><a class="text" href="publications.php">up</a></p>
 <br>
-<h3><a class="intLink" name="2005">2005</a></h3>
+<h3><a class="intLink" id="2005">2005</a></h3>
 
 <p>
 <strong>Excited states in <sup>31</sup>S studied via beta decay of <sup>31</sup>Cl</strong><br>
@@ -447,7 +470,7 @@ Eur. Phys. J. A 25, Supplement 1 (2005), 27-30
 
 <p class="righted"><a class="text" href="publications.php">up</a></p>
 <br>
-<h3><a class="intLink" name="2004">2004</a></h3>
+<h3><a class="intLink" id="2004">2004</a></h3>
 <p>
 <strong>First mass measurement at JYFLTRAP</strong><br>
 A. Jokinen, T. Eronen, U. Hager, J. Hakala, V. Kolhinen, S. Kopecky, S. Rinta-Antila, J. Szerypo, J. Äysto<br>

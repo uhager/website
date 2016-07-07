@@ -41,7 +41,7 @@ $MD1const = 0.0004815;
 ?>
 
 <?php 
-include("xhtmlNav.php");
+include("navigation.php");
 include("projectSideNav.php") ;
 
 function csv_to_array($file) {
@@ -96,16 +96,9 @@ $nubtab = csv_to_array('nubtab.csv');
 <a class="text" href="dragon-tools.php#md1" >MD1 calibration </a> - <a class="text" href="dragon-tools.php#yield" >Yield calculation</a>
 </p>
  <hr/>
-<h3><a class="intLink" name="md1">MD1 energy calibration, tune ratios, ED1 calibration</a></h3>
+<h3><a class="intLink" id="md1">MD1 energy calibration, tune ratios, ED1 calibration</a></h3>
 
 
-<form action="dragon-tools.php#md1" method="post">
-<label for="B">MD1 field [G]:</label>
-	 <input type="text" name="B" id="B" size="7" value="<?php echo $B; ?>" />
-<label for="MdA">MD1 setpoint [A]:</label>
- <input type="text" name="MdA" id="MdA" size="6" value="<?php echo $MdA; ?>" /> <br/>
-<label for="nucleus">Nucleus:</label>
-<input type="text" list="nucleus" name="nucleus" size="7" value="<?php echo $nucleus; ?>" />
 <datalist id="nucleus">
 <?php
 foreach ( $nubtab as $nucleon ) {
@@ -113,6 +106,13 @@ foreach ( $nubtab as $nucleon ) {
 }
 ?>
 </datalist>
+<form action="dragon-tools.php#md1" method="post">
+<label for="B">MD1 field [G]:</label>
+	 <input type="text" name="B" id="B" size="7" value="<?php echo $B; ?>" />
+<label for="MdA">MD1 setpoint [A]:</label>
+ <input type="text" name="MdA" id="MdA" size="6" value="<?php echo $MdA; ?>" /> <br/>
+<label for="nucleus">Nucleus:</label>
+<input type="text" list="nucleus" name="nucleus" size="7" value="<?php echo $nucleus; ?>" />
 <label for="Q"></label>
 Charge state: <input type="text" name="Q" id="Q" size="3" value="<?php echo $Q; ?>"/><br/>
 <label for="ED1">ED1 setpoint voltage [kV]:</label>
@@ -160,106 +160,101 @@ echo "Insert B and ED1 to calculate the mass-to-charge ratio (and q for mass). <
 
 
 
-
 <table id="magTables">
 <tr>
-<td class="tooltip" align="left">
+<td >
 
-<span class="leftTable">insert MD1 field to scale MD2, Q fields</span>
 <table>
 <tr>
-<td align="center"><b>Magnet</b></td>
-<td align="center"><b>Field</b></td>
+<td class="centered"><b>Magnet</b></td>
+<td class="centered"><b>Field</b></td>
 </tr>
 <tr>
-<td align="center">Q1</td>
-<td align="right"><?php echo round($B * 0.709*1000)/1000; ?></td>
+<td class="centered">Q1</td>
+<td class="righted"><?php echo round($B * 0.709*1000)/1000; ?></td>
 </tr>
 <tr>
-<td align="center">Q2</td>
-<td align="right"><?php echo round($B * 0.677*1000)/1000; ?></td>
+<td class="centered">Q2</td>
+<td class="righted"><?php echo round($B * 0.677*1000)/1000; ?></td>
 </tr>
 <tr>
-<td align="center">MD1</td>
-<td align="right"><?php echo round($B * 1.000*1000)/1000; ?></td>
+<td class="centered">MD1</td>
+<td class="righted"><?php echo round($B * 1.000*1000)/1000; ?></td>
 </tr>
 <tr>
-<td align="center">Q3</td>
-<td align="right"><?php echo round($B * 0.553*1000)/1000; ?></td>
+<td class="centered">Q3</td>
+<td class="righted"><?php echo round($B * 0.553*1000)/1000; ?></td>
 </tr>
 <tr>
-<td align="center">Q4</td>
-<td align="right"><?php echo round($B * 0.735*1000)/1000; ?></td>
+<td class="centered">Q4</td>
+<td class="righted"><?php echo round($B * 0.735*1000)/1000; ?></td>
 </tr>
 <tr>
-<td align="center">Q5</td>
-<td align="right"><?php echo round($B * 0.381*1000)/1000; ?></td>
+<td class="centered">Q5</td>
+<td class="righted"><?php echo round($B * 0.381*1000)/1000; ?></td>
 </tr>
 <tr>
-<td align="center">Q6</td>
-<td align="right"><?php echo round($B * 0.366*1000)/1000; ?></td>
+<td class="centered">Q6</td>
+<td class="righted"><?php echo round($B * 0.366*1000)/1000; ?></td>
 </tr>
 <tr>
-<td align="center">Q7</td>
-<td align="right"><?php echo round($B * 0.512*1000)/1000; ?></td>
+<td class="centered">Q7</td>
+<td class="righted"><?php echo round($B * 0.512*1000)/1000; ?></td>
 </tr>
 <tr>
-<td align="center">MD2</td>
-<td align="right"><?php echo round($B * 1.230*1000)/1000; ?></td>
+<td class="centered">MD2</td>
+<td class="righted"><?php echo round($B * 1.230*1000)/1000; ?></td>
 </tr>
 <tr>
-<td align="center">Q8</td>
-<td align="right"><?php echo round($B * 0.387*1000)/1000; ?></td>
+<td class="centered">Q8</td>
+<td class="righted"><?php echo round($B * 0.387*1000)/1000; ?></td>
 </tr>
 <tr>
-<td align="center">Q9</td>
-<td align="right"><?php echo round($B * 0.238*1000)/1000; ?></td>
+<td class="centered">Q9</td>
+<td class="righted"><?php echo round($B * 0.238*1000)/1000; ?></td>
 </tr>
 <tr>
-<td align="center">Q10</td>
-<td align="right"><?php echo round($B * 0.266*1000)/1000; ?></td>
+<td class="centered">Q10</td>
+<td class="righted"><?php echo round($B * 0.266*1000)/1000; ?></td>
 </tr>
 </table>
-
 </td>
-<td class="tooltip" align="right">
+<td>
 
-<span  class="rightTable">insert MD1 setpoint to scale SX setpoints</span>
 <table>
 <tr>
-<td align="center"><b>Magnet</b></td>
-<td align="center"><b>Setpoint</b></td>
+<td class="centered"><b>Magnet</b></td>
+<td class="centered"><b>Setpoint</b></td>
 </tr>
 <tr>
-<td align="center">SX1</td>
-<td align="right"><?php echo round($MdA * 0.0528*10000)/10000; ?></td>
+<td class="centered">SX1</td>
+<td class="righted"><?php echo round($MdA * 0.0528*10000)/10000; ?></td>
 
 </tr>
 <tr>
-<td align="center">SX2</td>
-<td align="right"><?php echo round($MdA * 0.0112*10000)/10000; ?></td>
+<td class="centered">SX2</td>
+<td class="righted"><?php echo round($MdA * 0.0112*10000)/10000; ?></td>
 </tr>
 <tr>
-<td align="center">MD1</td>
-<td align="right"><?php echo round($MdA * 1.000*10000)/10000; ?></td>
+<td class="centered">MD1</td>
+<td class="righted"><?php echo round($MdA * 1.000*10000)/10000; ?></td>
 </tr>
 <tr>
-<td align="center">SX3</td>
-<td align="right"><?php echo round($MdA * 0.0100*10000)/10000; ?></td>
+<td class="centered">SX3</td>
+<td class="righted"><?php echo round($MdA * 0.0100*10000)/10000; ?></td>
 </tr>
 <tr>
-<td align="center">SX4</td>
-<td align="right"><?php echo round($MdA * 0.0974*10000)/10000; ?></td>
+<td class="centered">SX4</td>
+<td class="righted"><?php echo round($MdA * 0.0974*10000)/10000; ?></td>
 </tr>
 </table>
-
 </td>
 </tr>
 </table>
 
 
     <hr/>
-<h3><a class="intLink" name="yield">Yield calculation</a></h3>
+<h3><a class="intLink" id="yield">Yield calculation</a></h3>
 <form action="DragonTools.php#yield" method="post">
 	needed for R: <br/>	
 FC4 current [enA]: <input type="text" name="FC" size="3" value="<?php echo $FC; ?>"/> 
@@ -270,12 +265,12 @@ Run time [s]: <input type="text" name="t" size="6" value="<?php echo $t; ?>"/><b
 Target pressure [Torr]: <input type="text" name="p" size="4" value="<?php echo $p; ?>"/>
 N<sub>elastic</sub>: <input type="text" name="N" size="7" value="<?php echo $N; ?>"/><br/>
 <input class="submit" type="submit" value="calculate R" name="Rcalc"/>
-<input type="hidden" name="eff_1" size="3" value="<?php echo $eff_1; ?>"/>
-<input type="hidden" name="eff_2" size="3" value="<?php echo $eff_2; ?>"/>
-<input type="hidden" name="eff_3" size="3" value="<?php echo $eff_3; ?>"/>
-<input type="hidden" name="Nr" size="7" value="<?php echo $Nr; ?>"/>
-<input type="hidden" name="cs" size="3" value="<?php echo $cs; ?>"/><br/>
-<input type="hidden" name="N_2" size="7" value="<?php echo $N_2; ?>"/>
+<input type="hidden" name="eff_1" value="<?php echo $eff_1; ?>"/>
+<input type="hidden" name="eff_2" value="<?php echo $eff_2; ?>"/>
+<input type="hidden" name="eff_3" value="<?php echo $eff_3; ?>"/>
+<input type="hidden" name="Nr" value="<?php echo $Nr; ?>"/>
+<input type="hidden" name="cs" value="<?php echo $cs; ?>"/><br/>
+<input type="hidden" name="N_2" value="<?php echo $N_2; ?>"/>
 </form>
 <br/>
 <?php
@@ -304,18 +299,17 @@ Charge state fraction [%]: <input type="text" name="cs" size="3" value="<?php ec
 	through separator [%]: <input type="text" name="eff_1" size="3" value="<?php echo $eff_1; ?>"/>
 	through MCPs [%]: <input type="text" name="eff_2" size="3" value="<?php echo $eff_2; ?>"/>
 	BGOs [%]: <input type="text" name="eff_3" size="3" value="<?php echo $eff_3; ?>"/>
- <center>
+
 <input class="submit" type="submit" value="calculate N, Y" name="Ycalc"/>
-<input type="hidden" name="Q_2" size="2" value="<?php echo $Q_2; ?>"/>
-<input type="hidden" name="t" size="6" value="<?php echo $t; ?>"/><br/>
-<input type="hidden" name="FC" size="3" value="<?php echo $FC; ?>"/> 
-<input type="hidden" name="Tr" size="3" value="<?php echo $Tr; ?>"/><br/>
-<input type="hidden" name="E_2" size="4" value="<?php echo $E_2; ?>"/>
-<input type="hidden" name="N" size="7" value="<?php echo $N; ?>"/><br/>
-</center>
+<input type="hidden" name="Q_2" value="<?php echo $Q_2; ?>"/>
+<input type="hidden" name="t"  value="<?php echo $t; ?>"/><br/>
+<input type="hidden" name="FC" value="<?php echo $FC; ?>"/> 
+<input type="hidden" name="Tr" value="<?php echo $Tr; ?>"/><br/>
+<input type="hidden" name="E_2" value="<?php echo $E_2; ?>"/>
+<input type="hidden" name="N"  value="<?php echo $N; ?>"/><br/>
 </form>
 <br/>
-<center>
+
 <?php
 	
 	if ($Yc==1 && $Nr!=0 && $cs!=0 && $R_2!=0 && $N_2!=0 && $p_2!=0)
@@ -331,12 +325,8 @@ Charge state fraction [%]: <input type="text" name="cs" size="3" value="<?php ec
 //else echo "calculate R, Y<br/>";
 ?>
 
-</center>
-
     <hr/>
-<center>
 <small>Created by Ulrike</small> 
-</center>
 <!-- hhmts start -->
 <!-- hhmts end -->
 </div>

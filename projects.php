@@ -1,4 +1,4 @@
-<?php include("xhtmlNav.php") ?>
+<?php include("navigation.php") ?>
 <?php include("projectSideNav.php") ?>
 
 <div id="work_main">

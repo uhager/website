@@ -11,8 +11,8 @@
 
 <div id="work_main">
 
-<h2><a name="up">Presentations</a></h2>
-<h3><a class="intLink" name="talks">Invited Talks</a></h3>
+<h2><a id="up">Presentations</a></h2>
+<h3><a class="intLink" id="talks">Invited Talks</a></h3>
 
 <p>
 <a class="text" href="UH_NSCL_Feb2014.pdf" style="text-decoration:none">Nuclear Astrophysics at DRAGON</a><br>
@@ -140,12 +140,12 @@ TRIUMF seminar<br>
 <p>
 <a class="text" href="lectio.pdf" style="text-decoration:none">Precision mass measurements of neutron-rich nuclides around A = 100</a><br>
 Lectio Praecursoria<br>
-09.07.2007, Jyv‰skyl‰, Finland
+09.07.2007, Jyv√§skyl√§, Finland
 </p>
 <p>
 <a class="text" href="saariselka.pdf" style="text-decoration:none">Mass measurements at JYFLTRAP</a><br>
 EURONS Laser and Trap collaboration meeting<br>
-11. - 15.04.2007, Saariselk‰, Finland
+11. - 15.04.2007, Saariselk√§, Finland
 </p>
 <p>
 <a class="text" href="winterschool.pdf" style="text-decoration:none">Mass measurement of neutron-rich fission products at JYFLTRAP</a><br>
@@ -164,7 +164,7 @@ HITRAP/NIPNET/IONCATCHER Workshop<br>
 </p>
 <p class="righted"><a class="text" href="conf_contrib.php">up</a></p>
 <br>
-<h3><a class="intLink" name="posters">Posters</a></h3>
+<h3><a class="intLink" id="posters">Posters</a></h3>
 <p>
 <a class="text" href="O17ag_poster.pdf" style="text-decoration:none">Measurement of the <sup>17</sup>O(&alpha;,&gamma;)<sup>21</sup>Ne reaction at DRAGON</a><br>
 INPC 2010<br>

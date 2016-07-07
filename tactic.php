@@ -1,11 +1,11 @@
-<?php include("xhtmlNav.php") ?>
+<?php include("navigation.php") ?>
 <?php include("projectSideNav.php") ?>
 
 
 <div id="work_main">
 
 <h2>TACTIC</h2><br />
-<table class="bordered" cellspacing="0" cellpadding="10">
+<table class="bordered">
 <tr class="even" id="tactichv">
 <td><a class="text" href="tactic-HV.php"><img src="TacticHV.jpg" alt="TacticHV.jpg"/></a></td>
 <td>A <a class="text" href="tactic-HV.php">php script</a> to calculate resistors and voltages to get the correct voltages across the GEMs and the drift region.</td>

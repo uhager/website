@@ -8,14 +8,14 @@
 	  </div>
 
 <div id="work_main">
-<table width="95%" cellpadding="20">
+<table class="index">
 <tr>
-<td>I am currently Assistant Professor at the <a class="text" href="http://www.nscl.msu.edu">National Superconducting Cyclotron Laboratory<span>http://www.nscl.msu.edu</span></a> at Michigan State University. I previously spent some time at Colorado School of Mines in Golden, CO. I am continuing the work I did previously at <a class="text" href="http://www.triumf.ca/">TRIUMF <span>http://www.triumf.ca/</span></a> in Vancouver, working mainly on the <a class="text" href="http://dragon.triumf.ca/home.html">DRAGON<span>http://dragon.triumf.ca/home.html</span></a> experiment. In addition, I also work on the <a class="text" href="http://sharc.triumf.ca/">SHARC<span>http://sharc.triumf.ca/</span></a> silicon array. I did my PhD studies with the <a class="text" href="http://www.jyu.fi/science/laitokset/fysiikka/en/research/accelerator/igisol" >IGISOL<span>http://www.jyu.fi/science/laitokset/fysiikka/en/research/accelerator/igisol</span></a> group at the Department of Physics of the University of Jyväskylä, Finland, working on the <a class="text" href="http://www.jyu.fi/science/laitokset/fysiikka/en/research/accelerator/igisol/trap">JYFLTRAP<span>http://www.jyu.fi/science/laitokset/fysiikka/en/research/accelerator/igisol/trap</span></a> Penning trap setup. Part of my studies were conducted at <a class="text" href="http://isoltrap.web.cern.ch/isoltrap/">ISOLTRAP<span>http://isoltrap.web.cern.ch/isoltrap/</span></a> at CERN, Switzerland.</td>
-<td height="250"><img src="UH_20140825_cut_scaled300.jpg" alt="Picture of Ulrike" style="width:auto; height:80%;"></td>
+<td>I am currently Assistant Professor at the <a class="text" href="http://www.nscl.msu.edu" title="http://www.nscl.msu.edu">National Superconducting Cyclotron Laboratory</a> at Michigan State University. I previously spent some time at Colorado School of Mines in Golden, CO. I am continuing the work I did previously at <a class="text" href="http://www.triumf.ca/" title="http://www.triumf.ca/">TRIUMF</a> in Vancouver, working mainly on the <a class="text" href="http://dragon.triumf.ca/home.html" title="http://dragon.triumf.ca/home.html">DRAGON</a> experiment. In addition, I also work on the <a class="text" href="http://sharc.triumf.ca/" title="http://sharc.triumf.ca/">SHARC</a> silicon array. I did my PhD studies with the <a class="text" href="http://www.jyu.fi/science/laitokset/fysiikka/en/research/accelerator/igisol" title="http://www.jyu.fi/science/laitokset/fysiikka/en/research/accelerator/igisol">IGISOL</a> group at the Department of Physics of the University of Jyv&auml;kyl&auml;, Finland, working on the <a class="text" href="http://www.jyu.fi/science/laitokset/fysiikka/en/research/accelerator/igisol/trap" title="http://www.jyu.fi/science/laitokset/fysiikka/en/research/accelerator/igisol/trap">JYFLTRAP</a> Penning trap setup. Part of my studies were conducted at <a class="text" href="http://isoltrap.web.cern.ch/isoltrap/" title="http://isoltrap.web.cern.ch/isoltrap/">ISOLTRAP</a> at CERN, Switzerland.</td>
+<td style="height:250px"><img src="UH_20140825_cut_scaled300.jpg" alt="Picture of Ulrike" style="width:auto; height:80%;"></td>
 </tr>
 </table>
     <hr>
-<p>Last updated: Mar 22, 2016</p> 
+<p>Last updated: Apr 1, 2016</p> 
 </div>
   </body>
 </html>

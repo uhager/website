@@ -9,11 +9,11 @@
 
 <div id="work_main">
 
-	  <h2><a name="up">Curriculum Vitae</a></h2>
+	  <h2><a id="up">Curriculum Vitae</a></h2>
 
-<table cellspacing="0" cellpadding="10">
+<table>
 <tr>
-<td>Jul. 2014 - present </td><td>Assistant Professor at the National Superconducting Cyclotron Laboratory, Michigan State University</td>
+<td style="width:16%">Jul. 2014 - present </td><td>Assistant Professor at the National Superconducting Cyclotron Laboratory, Michigan State University</td>
 </tr><tr>
 <td>Jan. 2012 - Jun. 2014 </td><td> Assistant Professor at the Colorado School of Mines</td>
 </tr><tr>
@@ -32,15 +32,15 @@ Jun. 2006 </td><td> Participation in the Nuclei in the Cosmos-IX Summer School, 
 </tr><tr>
 <td>Aug. 2004 </td><td>  Participation in the  Euroschool on Exotic Beams, University of Surrey, UK</td>
 </tr><tr>
-<td>Apr. 2004 - Jun. 2007 </td><td> PhD studies at the University of Jyväskylä working on the JYFLTRAP Penning trap for high-precision mass measurements </td>
+<td>Apr. 2004 - Jun. 2007 </td><td> PhD studies at the University of Jyv&auml;skyl&auml; working on the JYFLTRAP Penning trap for high-precision mass measurements </td>
 </tr><tr>
 <td>Apr. 13<sup>th</sup>, 2004 </td><td> Physics diploma</td>
 </tr><tr>
 <td>Sep. 2003 </td><td> Participation in the Euroschool on Exotic Beams, Valencia, Spain</td>
 </tr><tr>
-<td>Apr. 2003 - Apr. 2004 </td><td> external diploma work for the University of Hamburg at the University of Jyväskylä (Finland),  <a class="intText" href="diplomarbeit.pdf">Precision measurement of atomic masses of radioactive nuclei employing Penning trap technique</a></td>
+<td>Apr. 2003 - Apr. 2004 </td><td> external diploma work for the University of Hamburg at the University of Jyv&auml;skyl&auml; (Finland),  <a class="intText" href="diplomarbeit.pdf">Precision measurement of atomic masses of radioactive nuclei employing Penning trap technique</a></td>
 </tr><tr>
-<td>Aug. 2001 - Mar. 2002 </td><td>  Stipend from "Otto och Johanna Beltzners fond" for studies  at  Åbo Akademi, Turku, Finland</td>
+<td>Aug. 2001 - Mar. 2002 </td><td>  Stipend from "Otto och Johanna Beltzners fond" for studies  at  Ã…bo Akademi, Turku, Finland</td>
 </tr><tr>
 <td>Jan. 2000 - Jun. 2000 </td><td> Projectwork at the Swedish Institute for Space Physics in Uppsala, <a class="text" href="irfu_radar_comp.pdf">Comparison of HV and VHF radar signatures of substorms</a> </td>
 </tr><tr>

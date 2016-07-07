@@ -1,11 +1,11 @@
-<?php include("xhtmlNav.php") ?>
+<?php include("navigation.php") ?>
 <?php include("projectSideNav.php") ?>
 
 
 <div id="work_main">
 
 <h2>JYFLTRAP</h2><br />
-<table class="bordered" cellspacing="0" cellpadding="10">
+<table class="bordered">
 <tr class="even" id="diss">
 <td><a class="text" href="ulrike_thesis.pdf"><img src="diss.jpg" alt="diss.jpg"/> </a></td>
 <td> <a class="text" href="ulrike_thesis.pdf">Precision mass measurements of neutron-rich nuclides around A = 100</a>, my PhD thesis about JYFLTRAP. </td>

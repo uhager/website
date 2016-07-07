@@ -1,7 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta http-equiv="Content-type" content="text/html;charset=iso-8859-1"> 
+    <meta charset="UTF-8">
     <meta name="description" content="Ulrike Hager, JYFLTRAP, DRAGON, projects, programs and publications">
     <meta name="keywords" content="Ulrike Hager, JYFLTRAP, DRAGON">
     <meta name="author" content="Ulrike Hager">
@@ -9,6 +9,17 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
      <title>Home of Ulrike Hager</title>
 <link href="styleSheet.css" rel="stylesheet" type="text/css">
+<?php
+$pathArray = explode("/",$_SERVER['PHP_SELF']);
+$thisScript = $pathArray[count($pathArray)-1];
+$thisScript = str_replace(".php","",$thisScript);
+$pathArray = explode("-",$thisScript);
+$thisProject = $pathArray[0];
+$thisProject = $thisProject . "List";
+	echo "<style type=\"text/css\">\n";
+printf("#%s {display:block; position:relative;}\n",$thisProject);
+	echo "</style>\n";
+?>
 
   </head>
 <body>

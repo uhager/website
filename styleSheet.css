@@ -61,6 +61,7 @@ background-color:SteelBlue;
 position: absolute;
   right:10px;
 }
+
 hr
 { 
 background-color:MidnightBlue;
@@ -72,6 +73,7 @@ margin-left:auto;
 margin-right:auto;
 padding:0;
  }
+
 ul
 {
 float:left;
@@ -80,14 +82,11 @@ padding:0;
 margin:0;
 list-style-type:none;
 }
-ol
-{
-list-style-type:lower-roman;
-}
+
 li
  {
   padding:0 5px 0 0px;
-  /*list-style-type:none;*/
+  list-style-type:none;
   }
 #upperNav li
  {
@@ -103,6 +102,7 @@ a
 {
   text-decoration:none;
 }
+
 a.nav
 {
 text-align:center;      
@@ -187,11 +187,28 @@ p.larger
 line-height:200%;
 padding:10px 10px 10px 20px;
 }
+
+td, tr
+{
+padding:5px 10px 5px 10px;
+}
+
 table.bordered
 {
 border-top: 3px solid MidnightBlue;
 border-bottom: 3px solid MidnightBlue;
  text-align:center;
+border-spacing:0px;
+}
+
+table.index
+{
+width:95%;
+}
+
+table.index tr, table.index td
+{
+padding:20px 50px 20px 30px;
 }
 
 table.list
@@ -254,11 +271,13 @@ td img
   padding-right:10px;
 }
 
+textarea { text-align: center; }
+
 #main form, form.leftish
 { 
-  padding:0.5em 2em 0.5em 2em;
-
+ padding:0.5em	2em 0.5em 2em;
  }
+
 fieldset
 { 
 //border:1px solid MidnightBlue;
@@ -269,6 +288,7 @@ margin-right:auto;
 //width:55em;
 text-align:left;
  }
+
 label
 { 
 width: 5em;
@@ -284,6 +304,7 @@ border-width:1px;
 border-style: solid;
 border-color: Lavender DeepSkyBlue DeepSkyBlue Lavender;
 margin:0.1em 0.3em 0.1em 0em;
+ text-align: center;
  }
 input.submit
 { 
@@ -328,37 +349,12 @@ position:relative;
 {
 border-width:4px;
 border-style: ridge;
-padding:0.1em 0.5em 0.1em 0.5em;
+text-align:center;
+padding:0.1em 0.3em 0.1em 0.3em;
 margin:0.5em 1em 0.5em 1em;
 position:relative;
+width:80%
 }
-
-.tooltip
-{
-text-decoration:none;
-position:relative;
-}
-.tooltip span
-{
-display: none;
- font-size:9pt;
- top:-1.5em; left:-1em;
- }
-
-.tooltip span.leftTable{top:16em; left:25%; }
-.tooltip span.rightTable{top:22em; left:50%;
- }
-
-.tooltip:hover span
-{ 
-   display:block;
-    position:absolute;
-  white-space:nowrap;
-    border:1px solid #181818;
-    background-color:SteelBlue;
-  color:MidnightBlue;
-    text-align: center;
- }
 
 pre.quote
 {

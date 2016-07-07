@@ -1,11 +1,11 @@
-<?php include("xhtmlNav.php") ?>
+<?php include("navigation.php") ?>
 <?php include("projectSideNav.php") ?>
 
 
 <div id="work_main">
 
 <h2>DRAGON</h2><br />
-<table class="bordered" cellspacing="0" cellpadding="10">
+<table class="bordered">
 <tr class="even" id="dragontools">
 <td><a class="text" href="dragon-tools.php"><img src="dragontools.jpg" alt="dragontools.jpg"/></a></td>
 <td>A php script to calculate <a class="text" href="dragon-tools.php">MD1, ED1 and tune ratios</a>, and the <a class="text" href="dragon-tools.php#yield">yield</a>.</td>

@@ -18,7 +18,7 @@ $newComm=$_POST["newComm"];
 $deleteNo=$_POST["deleteNo"];
 $newCurrent=$_POST["newCurrent"];
 ?>
-<?php include("xhtmlNav.php") ?>
+<?php include("navigation.php") ?>
 <?php include("projectSideNav.php") ?>
 
 <div id="work_main">
@@ -101,8 +101,8 @@ echo "</table>";
 ?>
 <br/>
 
-<form class="leftish" action="" method="post">
-  <a class="tooltip"><input class="submit" type="submit" value="add window" name="addNew"/><span>add new window to available windows</span></a>
+<form class="leftish" method="post">
+  <input class="submit" type="submit" value="add window" name="addNew" title="Add new window to available windows"/>
 	thickness <input type="text" name="newThick" size="7" value="<?php echo $newThick; ?>" /> 
 	grid <input type="text" name="newGrid" size="2" value="<?php echo $newGrid; ?>" /> 
 	frame <input type="text" name="newFrame" size="5" value="<?php echo $newFrame; ?>" /> 
@@ -110,26 +110,30 @@ echo "</table>";
  <br/>
 </form>
 
-<form class="leftish" action="" method="post">
-<a class="tooltip"><input class="submit" type="submit" value="delete window" name="delete"/><span>delete window from available windows</span></a>
+<form class="leftish" method="post">
+<input class="submit" type="submit" value="delete window" name="delete" title="delete window from available windows"/>
 No. <input type="text" name="deleteNo" size="2" value="<?php echo $deleteNo; ?>" />  <br/>
 </form>
-<form class="leftish" action="" method="post">
-<a class="tooltip"><input class="submit" type="submit" value="current window" name="makeCurrent"/><span>choose available window as current</span></a>
+<form class="leftish"  method="post">
+<input class="submit" type="submit" value="current window" name="makeCurrent" title="choose available window as current"/>
 No. <input type="text" name="newCurrent" size="2" value="<?php echo $newCurrent; ?>" />  <br/>
 </form>
-<form class="leftish" action="" method="post">
-  <a class="tooltip"><input class="submit disabled" type="submit" value="save" name="save" disabled="disabled"/><span>write window list to file</span></a> <br/>
+<form class="leftish"  method="post">
+  <input class="submit disabled" type="submit" value="save" name="save" disabled="disabled" title="write window list to file"/> <br/>
 </form>
 
 <br/>
-<form class="leftish" action="" method="post">
-  <a class="tooltip"><input class="submit" type="submit" value="end session" name="endSession"/><span>end this session, forget changes, reread file</span></a> <br/>
+<form class="leftish" method="post">
+  <input class="submit" type="submit" value="end session" name="endSession" title="end this session, forget changes, reread file"/> <br/>
 </form>
-    <hr/>
-<center>
+
+<br>
+
+<hr/>
+
+<div class="centered">
 <small>Created by Ulrike</small> 
-</center>
+</div>
 <!-- hhmts start -->
 <!-- hhmts end -->
 </div>
