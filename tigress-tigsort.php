@@ -12,10 +12,12 @@ Required:
 <li><a class="text" href="http://ladd00.triumf.ca/~olchansk/rootana/">ROOTANA</a></li>
 <li>
 <?php 
-$filename = 'TigSortGUI.tgz';
-if (file_exists($filename))	
-   printf("<a class=\"text\" href=\"%s\">%s source tarball</a> (last updated %s)",$filename,$filename, date ( "M d, Y, H:i (T)",filemtime($filename)));
-else printf("%s source tarball (which could not be found, contact me)",$filename);
+$filename = 'code-archives/TigSortGUI.tgz';
+if (file_exists($filename)) {
+  $path = explode("/",$filename);
+  printf("<a class=\"text\" href=\"%s\">%s source tarball</a> (last updated %s)",$filename,$path[1], date ( "M d, Y, H:i (T)",filemtime($filename)));
+ }
+else printf("%s source tarball (which could not be found, contact me)",$path[1]);
 ?>
 </li>
 </ul>
@@ -31,7 +33,7 @@ export PATH=$ROOTSYS/bin:$PATH
 export LD_LIBRARY_PATH=$ROOTSYS/lib:$ROOTANA:$LD_LIBRARY_PATH
 </pre>
 <p>
-Un-tar the <a class="text" href="TigSortGUI.tgz">TigSortGUI tarball</a>, go to the TigSortGUI directory, and type make. The executable is tigsortGUI, which you can now copy to somewhere that's in your path. 
+Un-tar the <a class="text" href="code-archives/TigSortGUI.tgz">TigSortGUI tarball</a>, go to the TigSortGUI directory, and type make. The executable is tigsortGUI, which you can now copy to somewhere that's in your path. 
 </p>
 
 <h3>2. Running</h3>
@@ -39,7 +41,7 @@ Un-tar the <a class="text" href="TigSortGUI.tgz">TigSortGUI tarball</a>, go to t
 In the following, examples are given for analysis of data taken during experiments S1107 and S1201. I used runs 1693 and 1696 from S1107, and 1861 &ndash; 1864 for S1201 for no particular reason other than that those are relatively short runs. The required configuration files are included in the source tarball. 
 </p>
 <p class="centered">
-<img src="TigSort_main_empty.png" width=400 alt="TigSort main window" style="padding:10px 0 10px "><br>
+<img src="images/TigSort_main_empty.png" width=400 alt="TigSort main window" style="padding:10px 0 10px "><br>
 TigSortGUI main window
 </p>
 
@@ -180,7 +182,7 @@ Adding histograms works the same way as adding sorters and formulas, they can be
 </ul>
 
 <p class="centered">
-<img src="TigSort_main_conf.png" width=400 alt="TigSort main window, configured" style="padding:10px 0 10px "><br>
+<img src="images/TigSort_main_conf.png" width=400 alt="TigSort main window, configured" style="padding:10px 0 10px "><br>
 TigSortGUI main window, detectors and histograms defined 
 </p>
 
@@ -219,9 +221,11 @@ To avoid multithreading, the program has to occasionally interrupt the analysis 
 <p>
 To quickly sort MIDAS data files into root trees, it is recommended to use the command line version: <br>
 <?php 
-$filename = 'tigsort.tgz';
-if (file_exists($filename))	
-   printf("<a class=\"text\" href=\"%s\">%s source tarball</a> (last updated %s)",$filename,$filename, date ( "M d, Y, H:i (T)",filemtime($filename)));
+$filename = 'code-archives/tigsort.tgz';
+if (file_exists($filename)) {
+  $path = explode("/",$filename);
+   printf("<a class=\"text\" href=\"%s\">%s source tarball</a> (last updated %s)",$filename,$path[1], date ( "M d, Y, H:i (T)",filemtime($filename)));
+ }
 else printf("%s source tarball (which could not be found, contact me)",$filename);
 ?><br>
 It uses the same detector configuration files as the GUI version, described above in Section 2.1. Just run using
