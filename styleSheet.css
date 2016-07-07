@@ -298,7 +298,7 @@ margin-right: 0.3em;
  }
 input
 { 
-color:Silver;
+color:Gold;
 background-color:SteelBlue;
 border-width:1px;
 border-style: solid;
@@ -308,7 +308,7 @@ margin:0.1em 0.3em 0.1em 0em;
  }
 input.submit
 { 
-color:Silver;
+color:Gold;
 background-color:MidnightBlue;
 width:10em;
 border-width:3px;
