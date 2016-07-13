@@ -15,7 +15,7 @@
 </tr>
 </table>
     <hr>
-<p>Last updated: Apr 1, 2016</p> 
+<p>Last updated: July 7, 2016</p> 
 </div>
   </body>
 </html>
