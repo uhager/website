@@ -21,14 +21,14 @@
 </tr><tr>
 <td>Sep. 2007 - May 2010 </td><td> post-doctoral position at TRIUMF , Vancouver, with the DRAGON experiment, collaboration with the TACTIC experiment</td>
 </tr><tr>
-<td>Aug. 3<sup>rd</sup>, 2007 </td><td> Doctor of Philosophy, <a class="intText" href="ulrike_thesis.pdf">Precision mass measurements of neutron-rich nuclides around A = 100</a></td>
+<td>Aug. 3<sup>rd</sup>, 2007 </td><td> Doctor of Philosophy, <a class="intText" href="documents/ulrike_thesis.pdf" title="download pdf">Precision mass measurements of neutron-rich nuclides around A = 100</a></td>
 </tr><tr>
 <td>
 Jun. 2006 </td><td> Participation in the Nuclei in the Cosmos-IX Summer School, CERN, Geneva, Switzerland</td>
 </tr><tr>
 <td>Apr. 2006 </td><td> Participation in the WE-Heraeus-Winterschool on Trapped charged particles for fundamental interactions, Hirschegg, Austria</td>
 </tr><tr>
-<td>Apr. 2005 - Oct. 2005<br>May 2006 - Sep. 2006 </td><td> Working at CERN, Geneva, Switzerland, on the ISOLTRAP mass spectrometer, designing a new decay spectroscopy setup, cf. <a class="text" href="tape-log.pdf">Logbook</a></td>
+<td>Apr. 2005 - Oct. 2005<br>May 2006 - Sep. 2006 </td><td> Working at CERN, Geneva, Switzerland, on the ISOLTRAP mass spectrometer, designing a new decay spectroscopy setup, cf. <a class="text" href="documents/tape-log.pdf" title="download pdf">Logbook</a></td>
 </tr><tr>
 <td>Aug. 2004 </td><td>  Participation in the  Euroschool on Exotic Beams, University of Surrey, UK</td>
 </tr><tr>
@@ -38,11 +38,11 @@ Jun. 2006 </td><td> Participation in the Nuclei in the Cosmos-IX Summer School, 
 </tr><tr>
 <td>Sep. 2003 </td><td> Participation in the Euroschool on Exotic Beams, Valencia, Spain</td>
 </tr><tr>
-<td>Apr. 2003 - Apr. 2004 </td><td> external diploma work for the University of Hamburg at the University of Jyv&auml;skyl&auml; (Finland),  <a class="intText" href="diplomarbeit.pdf">Precision measurement of atomic masses of radioactive nuclei employing Penning trap technique</a></td>
+<td>Apr. 2003 - Apr. 2004 </td><td> external diploma work for the University of Hamburg at the University of Jyv&auml;skyl&auml; (Finland),  <a class="intText" href="documents/diplomarbeit.pdf" title="download pdf">Precision measurement of atomic masses of radioactive nuclei employing Penning trap technique</a></td>
 </tr><tr>
 <td>Aug. 2001 - Mar. 2002 </td><td>  Stipend from "Otto och Johanna Beltzners fond" for studies  at  Åbo Akademi, Turku, Finland</td>
 </tr><tr>
-<td>Jan. 2000 - Jun. 2000 </td><td> Projectwork at the Swedish Institute for Space Physics in Uppsala, <a class="text" href="irfu_radar_comp.pdf">Comparison of HV and VHF radar signatures of substorms</a> </td>
+<td>Jan. 2000 - Jun. 2000 </td><td> Projectwork at the Swedish Institute for Space Physics in Uppsala, <a class="text" href="documents/irfu_radar_comp.pdf" title="download pdf">Comparison of HV and VHF radar signatures of substorms</a> </td>
 </tr><tr>
 <td>Aug. 1999 - Jun. 2000 </td><td> SOCRATES/ERASMUS exchange programme with the University of Uppsala, Sweden</td>
 </tr><tr>

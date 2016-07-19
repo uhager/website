@@ -15,10 +15,11 @@ Required:
 $filename = 'code-archives/TigSortGUI.tgz';
 if (file_exists($filename)) {
   $path = explode("/",$filename);
-  printf("<a class=\"text\" href=\"%s\">%s source tarball</a> (last updated %s)",$filename,$path[1], date ( "M d, Y, H:i (T)",filemtime($filename)));
+  printf("<a class=\"text\" href=\"%s\">%s source tarball</a> (last updated %s).",$filename,$path[1], date ( "M d, Y, H:i (T)",filemtime($filename)));
  }
-else printf("%s source tarball (which could not be found, contact me)",$path[1]);
+else printf("%s source tarball (which could not be found, contact me).",$path[1]);
 ?>
+  Alternatively, you can download the source code from my <a class="text" href="https://github.com/uhager/TigSortGUI">github page</a>.
 </li>
 </ul>
 
@@ -224,10 +225,13 @@ To quickly sort MIDAS data files into root trees, it is recommended to use the c
 $filename = 'code-archives/tigsort.tgz';
 if (file_exists($filename)) {
   $path = explode("/",$filename);
-   printf("<a class=\"text\" href=\"%s\">%s source tarball</a> (last updated %s)",$filename,$path[1], date ( "M d, Y, H:i (T)",filemtime($filename)));
+   printf("<a class=\"text\" href=\"%s\">%s source tarball</a> (last updated %s).",$filename,$path[1], date ( "M d, Y, H:i (T)",filemtime($filename)));
  }
-else printf("%s source tarball (which could not be found, contact me)",$filename);
-?><br>
+else printf("%s source tarball (which could not be found, contact me).",$filename);
+?>
+  Alternatively, you can download the source code from my <a class="text" href="https://github.com/uhager/TigSort">github page</a>.
+
+<br>
 It uses the same detector configuration files as the GUI version, described above in Section 2.1. Just run using
 </p>
 <pre class="quote">

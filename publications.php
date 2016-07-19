@@ -26,6 +26,12 @@
 <h3><a class="intLink" id="2016">2016</a></h3>
 
 <p>
+<strong>Shell evolution approaching the N=20 island of inversion: structure of <sup>26</sup>Na</strong><br>
+Wilson, G. L.; Catford, W. N.; Orr, N. A.; Diget, C. Aa; Matta, A.; Hackman, G.; Williams, S. J.; Celik, I. C.; Achouri, N. L.; Al Falou, H.; Ashley, R.; Austin, R. A E; Ball, G. C.; Blackmon, J. C.; Boston, A. J.; Boston, H. C.; Brown, S. M.; Cross, D. S.; Djongolov, M.; Drake, T. E.; Hager, U.; Fox, S. P.; Fulton, B. R.; Galinski, N.; Garnsworthy, A. B.; Jamieson, D.; Kanungo, R.; Leach, K. G.; Orce, J. N.; Pearson, C. J.; Porter-Peden, M.; Sarazin, F.; Simpson, E. C.; Sjue, S.; Smalley, D.; Sumithrarachchi, C.; Triambak, S.; Unsworth, C.; Wadsworth, R.<br>
+Phys. Lett. B759 (2016) 417<br>
+</p>
+
+<p>
 <strong>Independent isotopic yields in 25 MeV and 50 MeV proton-induced fission of <sup>nat</sup>U</strong><br>
 H. Penttilä, D. Gorelov , V.-V. Elomaa, T. Eronen, U. Hager, J. Hakala, A. Jokinen, A. Kankainen, P. Karvonen, I. D. Moore, J. Parkkonen, K. Peräjärvi, I. Pohjalainen, S. Rahaman, S. Rinta-Antila, J. Rissanen, V.A. Rubchenya, A. Saastamoinen, V. Simutkin, T. Sonoda, C. Weber, A. Voss, J. Äystö<br>
   Eur. Phys. J. A (2016) 52:104<br>

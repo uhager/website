@@ -9,6 +9,7 @@
    <li><a class="nav" href="dragon-tools.php#yield" title="online yield calculation">Yield Calculator</a> </li>
 <li><a class="nav" href="documents/Q1_SM1Y_log.pdf" title="download report (pdf)">Acceptance</a> </li>
    <li><a class="nav" href="dragon-ICWindows.php" title="inventory of ion chamber windows">IC windows</a> </li>
+<li><a class="nav" href="https://github.com/uhager/draconyan" title="github link" target="_blank">draconyan</a></li>
 <li><a class="nav" href="documents/bgos-dragonroot.pdf" title="download notes (pdf)">BGOs/dragonroot</a> </li>
   </ul>
 </li>

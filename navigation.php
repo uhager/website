@@ -5,8 +5,8 @@
     <meta name="description" content="Ulrike Hager, JYFLTRAP, DRAGON, projects, programs and publications">
     <meta name="keywords" content="Ulrike Hager, JYFLTRAP, DRAGON">
     <meta name="author" content="Ulrike Hager">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <!--    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  -->
      <title>Home of Ulrike Hager</title>
 <link href="styleSheet.css" rel="stylesheet" type="text/css">
 <?php

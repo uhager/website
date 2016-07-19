@@ -7,12 +7,12 @@
 <h2>JYFLTRAP</h2><br />
 <table class="bordered">
 <tr class="even" id="diss">
-<td><a class="text" href="documents/ulrike_thesis.pdf"><img src="images/diss.jpg" alt="images/diss.jpg"/> </a></td>
-<td> <a class="text" href="documents/ulrike_thesis.pdf">Precision mass measurements of neutron-rich nuclides around A = 100</a>, my PhD thesis about JYFLTRAP. </td>
+<td><a class="text" href="documents/ulrike_thesis.pdf" title="download pdf"><img src="images/diss.jpg" alt="images/diss.jpg"/> </a></td>
+<td> <a class="text" href="documents/ulrike_thesis.pdf" title="download pdf">Precision mass measurements of neutron-rich nuclides around A = 100</a>, my PhD thesis about JYFLTRAP. </td>
 </tr>
 <tr class="odd" id="diplom">
-<td><a class="text" href="documents/diplomarbeit.pdf">Precision measurement of atomic masses of radioactive nuclei employing Penning trap technique</a>, my diploma work about the JYFLTRAP Penning trap.</td>
-<td><a class="text" href="documents/diplomarbeit.pdf"><img src="images/beating.jpg" alt="images/beating.jpg"/></a></td>
+<td><a class="text" href="documents/diplomarbeit.pdf" title="download pdf">Precision measurement of atomic masses of radioactive nuclei employing Penning trap technique</a>, my diploma work about the JYFLTRAP Penning trap.</td>
+<td><a class="text" href="documents/diplomarbeit.pdf" title="download pdf"><img src="images/beating.jpg" alt="images/beating.jpg"/></a></td>
 </tr>
 <tr class="even" id="crap">
 <td><a class="text" href="code-archives/crap.zip"><img src="images/crap.jpg" alt="images/crap.jpg"/></a></td>
